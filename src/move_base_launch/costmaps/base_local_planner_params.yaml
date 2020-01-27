@@ -1,0 +1,13 @@
+TrajectoryPlannerROS:
+  # Speed limits
+  max_vel_x: 2000
+  min_vel_x: 1000
+  max_vel_theta: 300
+  min_in_place_vel_theta: 0.2
+
+  # Acceleration limits
+  acc_lim_theta: 3.2
+  acc_lim_x: 2.5
+  acc_lim_y: 2.5
+
+  holonomic_robot: false  # Is robot able to move in all directions freely?

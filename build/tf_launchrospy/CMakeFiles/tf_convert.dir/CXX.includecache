@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/temethextreme/convlog_ws/src/tf_launchrospy/src/tf_convert.cpp
+ros/ros.h
+/home/temethextreme/convlog_ws/src/tf_launchrospy/src/ros/ros.h
+tf/transform_broadcaster.h
+-
+

@@ -1,0 +1,8 @@
+prefix=/home/temethextreme/convlog_ws/install
+
+Name: launch_kinect
+Description: Description of launch_kinect
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/temethextreme/convlog_ws/install/lib 
+Requires: 

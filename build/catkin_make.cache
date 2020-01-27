@@ -1,0 +1,2 @@
+custom_rtabmap:depth_to_laser:move_base_launch:navigation_stack:point_cloud_converter:tf_launch:under_development/launch_kinect
+-DCATKIN_DEVEL_PREFIX=/home/temethextreme/convlog_ws/devel -DCMAKE_INSTALL_PREFIX=/home/temethextreme/convlog_ws/install -G Unix Makefiles

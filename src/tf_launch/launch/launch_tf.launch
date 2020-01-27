@@ -1,0 +1,7 @@
+<launch>
+    <!-- Start PointCloud2 to PointCloud transform -->
+    <node name="pc2topc" pkg="point_cloud_converter" type="point_cloud_converter_node"
+        args="points2_in:=/camera/depth_registered/points"/>
+
+    <node name="tf_custom" pkg="tf_launch" type="convert_tf"/>
+</launch>

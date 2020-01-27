@@ -1,0 +1,15 @@
+# Common parameters to be used in local and global costmaps
+
+obstacle_range: 2.5   # Max distance for obstacle to put in costmap
+raytrace_range: 0.5   # How much clear space for tries to achieve in front of itself 
+# footprint: [[x0, y0], [x1, y1], ... [xn, yn]] # Dimensions of the robot
+robot_radius: 0.1 # Treat robot as circular
+inflation_radius: 0.1  # Treat all obstacles further than x-meters as equal
+
+# Set navigation to accept unknown goals
+NavfnROS:
+  allow_unknown: true
+
+observation_sources: point_cloud_sensor
+
+point_cloud_sensor: {sensor_frame: camera_link, data_type: PointCloud, topic: points_out, marking: true, clearing: true}

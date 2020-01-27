@@ -1,0 +1,17 @@
+<launch>
+   <!--
+
+      ### Launch file for navigation stack ###
+
+      NOTE: You need to launch openni_launch separately!!
+      @author: Teemu Sormunen
+   -->
+
+   <!-- Publish odometry data -->
+   <node pkg="odometry" type="publish_odometry" name="kinect_driver" output="screen">
+      <!--Fill in parameters here later-->
+   </node>
+   <node pkg="robot_setup_tf" type="tf_broadcaster" name="configure_tf" output="screen">
+       <!--Fill in parameters here later-->>
+   </node>
+</launch> 
