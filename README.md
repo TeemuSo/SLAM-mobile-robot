@@ -6,6 +6,7 @@ The aim of this project was to use principles of Visual SLAM on self-built robot
 
 Chassis: SunFounder PiCar-V  
 Camera: Xbox Kinect
+![Mobile robot used in the project](mobile_robot.jpg?raw=true)
 
 ## Instructions for usage
 
