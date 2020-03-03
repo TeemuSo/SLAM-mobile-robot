@@ -69,7 +69,7 @@ Package for creating custom transformations links with zero displacement. Used f
 ## Authors
 
 The ownership of previously described packages belong to the original authors.  
-The full project was done in co-operation  
+The full project was done in co-operation, where Pekka was more responsible for the hardware side implementation and design. 
 * **Teemu Sormunen** -- **Pekka Leppänen**
 
 
