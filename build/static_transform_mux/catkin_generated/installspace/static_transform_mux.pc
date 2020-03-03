@@ -1,0 +1,8 @@
+prefix=/home/temethextreme/convlog_ws/install
+
+Name: static_transform_mux
+Description: Description of static_transform_mux
+Version: 1.1.0
+Cflags: 
+Libs: -L/home/temethextreme/convlog_ws/install/lib 
+Requires: rospy tf2_msgs

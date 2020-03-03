@@ -1,0 +1,29 @@
+rtabmap:
+  rtabmap:
+    frame_id: camera_link
+    map_frame_id: map
+    odom_frame_id: camera_link
+
+    subscribe_depth: false
+    subscribe_rgb: false
+    subscribe_rgbd: true
+    subscribe_scan: true
+
+    publish_tf: false
+
+    Reg:
+      Strategy: 0
+      Force3DoF: true                   # Use 3 DOF (2D) (OLD Optimizer/Slam2D)
+    
+    RGBD:
+      ProximityBySpace: false
+      ProximityPathMaxNeighbors: 10
+    
+    Grid:
+      Scan2dUnknownSpaceFilled: false
+      FromDepth: true
+      MaxGroundHeight: 0.2
+      MaxObstacleHeight: 0.5
+      NormalsSegmentation: false        # Segment ground from points using normals
+      RayTracing: true                  # Fills the empty space between obstacle and free
+      3D: true

@@ -1,0 +1,8 @@
+prefix=/home/temethextreme/convlog_ws/install
+
+Name: depth_image_proc
+Description: Description of depth_image_proc
+Version: 1.14.0
+Cflags: -I/home/temethextreme/convlog_ws/install/include
+Libs: -L/home/temethextreme/convlog_ws/install/lib -ldepth_image_proc
+Requires: 

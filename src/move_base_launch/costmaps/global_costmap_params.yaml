@@ -1,9 +1,9 @@
 global_costmap:
-  global_frame: rtabmap/grid_map  # Frame where costmap is run in
-  robot_base_frame: rtabmap/odom # What frame costmap is referenced on
+  global_frame: map  # Frame where costmap is run in
+  robot_base_frame: camera_link # What frame costmap is referenced on
   update_frequency: 0.5 # Frequency in Hz
   publish_frequency: 0.5
   static_map: false  # true - using existing map or map server
   rolling_window: true  # Not static map
-  point_cloud_sensor/topic: points_out
-  #transform_tolerance: 2
+  point_cloud_sensor/topic: /camera/depth_registered/points
+  transform_tolerance: 2.0

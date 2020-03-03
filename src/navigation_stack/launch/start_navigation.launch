@@ -2,12 +2,15 @@
     <!-- Choose laser scan and debugging -->
     <arg name="depth_to_laser"  default="false"/>
     <arg name="debugging"       default="true"/>
-    <arg name="visualize"       default="false"/> <!-- Usually visualization is too fast -->
+    <arg name="rviz"            default="false"/> <!-- Usually rviz launches too quickly, leaving the tf trees undetected -->
+    <arg name="rtabmapviz"      default="false"/>
     <arg name="localization"    default="false"/>
+    <arg name="mode"            default="5"/>
 
     <!-- Start Kinect drivers and pointcloud tools -->
     <include file="$(find openni_launch)/launch/openni.launch">
     <arg name="depth_registration" value="true" />
+    <arg name="mode"               value="$(arg mode)"/>
     </include>
 
     <!-- Start pointcloud to laser scan conversion -->
@@ -21,10 +24,11 @@
     <!-- Start customized rtabmap -->
     <include file="$(find custom_rtabmap)/launch/start_mapping.launch">
     <arg name="localization" value="$(arg localization)"/>
+    <arg name="rtabmapviz"   value="$(arg rtabmapviz)"/>
     </include>
    
     <!-- Start rviz -->
-    <node if="$(arg visualize)" 
+    <node if="$(arg rviz)" 
     name="visualization" pkg="rviz" type="rviz" />
 
 

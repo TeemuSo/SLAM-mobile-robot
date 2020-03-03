@@ -1,2 +1,2 @@
-custom_rtabmap:depth_to_laser:move_base_launch:navigation_stack:point_cloud_converter:tf_launch:under_development/launch_kinect
--DCATKIN_DEVEL_PREFIX=/home/temethextreme/convlog_ws/devel -DCMAKE_INSTALL_PREFIX=/home/temethextreme/convlog_ws/install -G Unix Makefiles
+car_control:custom_rtabmap:depth_to_laser:image_pipeline/camera_calibration:image_pipeline/depth_image_proc:image_pipeline/image_pipeline:image_pipeline/image_proc:image_pipeline/image_publisher:image_pipeline/image_rotate:image_pipeline/image_view:image_pipeline/stereo_image_proc:move_base_launch:navigation_stack:point_cloud_converter:static_transform_mux:tf_launch:under_development/launch_kinect
+-DCMAKE_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/home/temethextreme/convlog_ws/devel -DCMAKE_INSTALL_PREFIX=/home/temethextreme/convlog_ws/install -G Unix Makefiles

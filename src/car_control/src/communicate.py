@@ -23,11 +23,11 @@ def parse_coords(msg):
     # Move robot forward
     pwm.write(4, 0, x_velocity)
     pwm.write(5, 0, x_velocity)
-    if angular_velocity == 1.0
+    if angular_velocity == 1.0:
         pwm_servo.write(0, 0, x_velocity)
         rospy.loginfo('Driving straight with value: {}'
             .format(x_velocity))
-    else if angular_velocity < 450 and angular_velocity > 250:
+    elif angular_velocity < 450 and angular_velocity > 250:
         pwm_servo.write(0, 0, angular_velocity)
         rospy.loginfo('Turning with value: {}'
             .format(angular_velocity))
@@ -69,7 +69,7 @@ GPIO.output(Motor0_B, GPIO.HIGH)
 GPIO.output(Motor1_A, GPIO.LOW)
 GPIO.output(Motor1_B, GPIO.HIGH)
 
-# Set mötörs forward
+# Set motors forward
 motor = motor_control.Motor(4,5)
 motor.set_motors_forward()
 motor.motors_forward(1)
