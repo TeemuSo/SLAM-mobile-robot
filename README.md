@@ -22,8 +22,8 @@ Below the instructions for usage are given with configurable parameters
 <i>depth_to_laser</i> = <b>false</b> > start point_cloud_converter to convert PointCloud to LaserScan  
 <i>debugging</i> = <b>true</b> > > > > start RQT_GUI to debug the project  
 <i>rviz</i> = <b>false</b> > > > > > > start rviz for visualize 
-<i>rtabmapviz</i> = <b>false</b> > > > start rtabmapviz for visualization  
-<i>localization</i> = <b>false</b> > > start the custom_rtabmap in localization mode  
+<i>rtabmapviz</i> = <b>false</b> > > > > start rtabmapviz for visualization  
+<i>localization</i> = <b>false</b> > > > start the custom_rtabmap in localization mode  
 <i>mode</i> = <b>5</b> > > > > > > > > mode for openni_driver resolution >> WORKING (5=QVGA 30Hz, 2=VGA 30Hz)  
   
   
