@@ -19,12 +19,12 @@ Below the instructions for usage are given with configurable parameters
   
   
 #### Parameters
-depth_to_laser = false -- start point_cloud_converter to convert PointCloud to LaserScan  
-debugging = true       -- start RQT_GUI to debug the project  
-rviz = false           -- start rviz for visualize 
-rtabmapviz = false     -- start rtabmapviz for visualization  
-localization = false   -- start the custom_rtabmap in localization mode  
-mode = 5               -- mode for openni_driver resolution >> WORKING (5=QVGA 30Hz, 2=VGA 30Hz)  
+depth_to_laser = false&nbsp;-- start point_cloud_converter to convert PointCloud to LaserScan  
+debugging = true&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- start RQT_GUI to debug the project  
+rviz = false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- start rviz for visualize 
+rtabmapviz = false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- start rtabmapviz for visualization  
+localization = false&nbsp;&nbsp;&nbsp;-- start the custom_rtabmap in localization mode  
+mode = 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- mode for openni_driver resolution >> WORKING (5=QVGA 30Hz, 2=VGA 30Hz)  
   
   
 Modification of RTABMap parameters done in src/custom_rtabmap/config/slam.yaml:  
