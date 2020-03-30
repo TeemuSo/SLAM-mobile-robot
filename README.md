@@ -69,11 +69,11 @@ Package for creating custom transformations links with zero displacement. Used f
 ## Authors
 
 The ownership of previously described packages belong to the original authors.  
-The full project was done in co-operation, where Pekka was more responsible for the hardware side implementation and design. 
+The full project was done in co-operation with Pekka Leppänen. 
 * **Teemu Sormunen** -- **Pekka Leppänen**
 
 
 ## Acknowledgments
 
 * Thanks for author of RTABMap M. Labbé, who has made huge contribution for SLAM community   
-&nbsp;&nbsp;in form of helpful tutorials of implementing RTABMap. 
+&nbsp;&nbsp;in the form of helpful tutorials of implementing RTABMap. 
